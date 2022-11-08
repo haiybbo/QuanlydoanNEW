@@ -285,6 +285,7 @@ namespace WindowsFormsApp1
             this.Name = "frmstudentprofile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "QLDA";
+            this.Load += new System.EventHandler(this.frmstudentprofile_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);

@@ -7,9 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace WindowsFormsApp1
 {
+
     public partial class frmstudentprofile : Form
     {
         public frmstudentprofile()
@@ -32,31 +35,10 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Frmsinhvienmain yourthesis = new Frmsinhvienmain();
-            yourthesis.Show();
-        }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void frmstudentprofile_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmsearchdoan s = new frmsearchdoan();
-            s.Show();
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
-            f.Show();
         }
     }
 }

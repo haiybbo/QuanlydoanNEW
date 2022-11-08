@@ -30,5 +30,10 @@ namespace WindowsFormsApp1
             Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
             f.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
