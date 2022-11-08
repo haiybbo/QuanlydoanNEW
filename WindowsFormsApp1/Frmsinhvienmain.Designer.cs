@@ -150,6 +150,7 @@ namespace WindowsFormsApp1
             this.button5.Text = "Trợ giúp";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -355,7 +356,6 @@ namespace WindowsFormsApp1
             this.button11.TabIndex = 30;
             this.button11.Text = "Sửa file";
             this.button11.UseVisualStyleBackColor = false;
-            this.button11.Visible = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label5

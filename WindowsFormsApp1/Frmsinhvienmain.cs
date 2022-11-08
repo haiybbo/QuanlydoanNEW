@@ -52,7 +52,14 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
+            f.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Frmtrogiupsinhvien f = new Frmtrogiupsinhvien();
+            f.Show();
         }
     }
 }

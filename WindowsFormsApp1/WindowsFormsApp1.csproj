@@ -132,6 +132,12 @@
     <Compile Include="frmstudentprofile.Designer.cs">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frmtrogiupsinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtrogiupsinhvien.Designer.cs">
+      <DependentUpon>Frmtrogiupsinhvien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmviewdoan_sv.cs">
       <SubType>Form</SubType>
     </Compile>

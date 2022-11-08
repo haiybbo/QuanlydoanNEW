@@ -47,10 +47,9 @@ namespace WindowsFormsApp1
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(35, 96);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(26, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 53);
+            this.label1.Size = new System.Drawing.Size(237, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ ĐỒ ÁN";
             // 
@@ -58,14 +57,13 @@ namespace WindowsFormsApp1
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(24, 456);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(10, 343);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(333, 78);
+            this.button5.Size = new System.Drawing.Size(253, 46);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Trợ giúp";
+            this.button5.Text = "Phân quyền người dùng";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -76,10 +74,9 @@ namespace WindowsFormsApp1
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(24, 206);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(10, 155);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(333, 78);
+            this.button4.Size = new System.Drawing.Size(253, 46);
             this.button4.TabIndex = 4;
             this.button4.Text = "Thư viện đồ án";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -92,10 +89,9 @@ namespace WindowsFormsApp1
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(24, 372);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(10, 280);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(333, 78);
+            this.button3.Size = new System.Drawing.Size(253, 46);
             this.button3.TabIndex = 3;
             this.button3.Text = "Danh sách sinh viên";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -108,10 +104,9 @@ namespace WindowsFormsApp1
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(24, 290);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(10, 219);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(333, 78);
+            this.button2.Size = new System.Drawing.Size(253, 46);
             this.button2.TabIndex = 2;
             this.button2.Text = "Danh sách giảng viên";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -129,11 +124,10 @@ namespace WindowsFormsApp1
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Location = new System.Drawing.Point(3, -22);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(2, -16);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(376, 1080);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(271, 829);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -145,10 +139,9 @@ namespace WindowsFormsApp1
             this.button6.BackColor = System.Drawing.Color.LightGray;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(169, 970);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Location = new System.Drawing.Point(54, 700);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(176, 48);
+            this.button6.Size = new System.Drawing.Size(185, 36);
             this.button6.TabIndex = 6;
             this.button6.Text = "Đăng xuất";
             this.button6.UseVisualStyleBackColor = false;
@@ -160,20 +153,24 @@ namespace WindowsFormsApp1
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Quản_lý_đồ_án2;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(386, 121);
+            this.pictureBox1.Location = new System.Drawing.Point(297, 139);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1003, 495);
+            this.pictureBox1.Size = new System.Drawing.Size(1028, 371);
             this.pictureBox1.TabIndex = 45;
             this.pictureBox1.TabStop = false;
             // 
             // lblchaomung
             // 
-            this.lblchaomung.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblchaomung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblchaomung.Font = new System.Drawing.Font("Calibri", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblchaomung.ForeColor = System.Drawing.Color.SandyBrown;
-            this.lblchaomung.Location = new System.Drawing.Point(573, 820);
+            this.lblchaomung.Location = new System.Drawing.Point(430, 615);
+            this.lblchaomung.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblchaomung.Name = "lblchaomung";
-            this.lblchaomung.Size = new System.Drawing.Size(655, 72);
+            this.lblchaomung.Size = new System.Drawing.Size(767, 54);
             this.lblchaomung.TabIndex = 46;
             this.lblchaomung.Text = "Chào mừng quản trị viên!";
             this.lblchaomung.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -181,16 +178,15 @@ namespace WindowsFormsApp1
             // 
             // Frmadminmain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1414, 1009);
+            this.ClientSize = new System.Drawing.Size(1336, 757);
             this.Controls.Add(this.lblchaomung);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frmadminmain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frmadminmain";
