@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E124317-330C-413A-B2FA-1DAF9B156DF6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="banguserDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>banguserDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Frmadminmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmadminmain.Designer.cs">
+      <DependentUpon>Frmadminmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmdanhsachgiangvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdanhsachgiangvien.designer.cs">
+      <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmdanhsachsinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdanhsachsinhvien.designer.cs">
+      <DependentUpon>Frmdanhsachsinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmgiangvienmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmgiangvienmain.designer.cs">
+      <DependentUpon>Frmgiangvienmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmprofilegiangvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmprofilegiangvien.designer.cs">
+      <DependentUpon>Frmprofilegiangvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsearchdoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsearchdoan.designer.cs">
+      <DependentUpon>frmsearchdoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsignin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsignin.Designer.cs">
+      <DependentUpon>Frmsignin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsinhvienmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsinhvienmain.Designer.cs">
+      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstudentprofile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstudentprofile.Designer.cs">
+      <DependentUpon>frmstudentprofile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmviewdoan_sv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmviewdoan_sv.Designer.cs">
+      <DependentUpon>Frmviewdoan_sv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmwelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmwelcome.Designer.cs">
+      <DependentUpon>Frmwelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.cs" />
+    <Compile Include="Phanquyen.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLDADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Quenmatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quenmatkhau.Designer.cs">
+      <DependentUpon>Quenmatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RptBangdiem.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptBangdiem.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptDetaitheoChude.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptDetaitheoChude.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptDetaitheoChuyennganh.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptDetaitheoChuyennganh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptDetaitheoGiangvien.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptDetaitheoGiangvien.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Taikhoan.cs" />
+    <EmbeddedResource Include="Frmadminmain.resx">
+      <DependentUpon>Frmadminmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmdanhsachgiangvien.resx">
+      <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmdanhsachsinhvien.resx">
+      <DependentUpon>Frmdanhsachsinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmgiangvienmain.resx">
+      <DependentUpon>Frmgiangvienmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmprofilegiangvien.resx">
+      <DependentUpon>Frmprofilegiangvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsearchdoan.resx">
+      <DependentUpon>frmsearchdoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsignin.resx">
+      <DependentUpon>Frmsignin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsinhvienmain.resx">
+      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstudentprofile.resx">
+      <DependentUpon>frmstudentprofile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmviewdoan_sv.resx">
+      <DependentUpon>Frmviewdoan_sv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmwelcome.resx">
+      <DependentUpon>Frmwelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quenmatkhau.resx">
+      <DependentUpon>Quenmatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptBangdiem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptBangdiem.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetaitheoChude.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptDetaitheoChude.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetaitheoChuyennganh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptDetaitheoChuyennganh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetaitheoGiangvien.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptDetaitheoGiangvien.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="banguserDataSet.xsc">
+      <DependentUpon>banguserDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="banguserDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>banguserDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="banguserDataSet.xss">
+      <DependentUpon>banguserDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLDADataSet.xsc">
+      <DependentUpon>QLDADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLDADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDADataSet.xss">
+      <DependentUpon>QLDADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Quản lý đồ án.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý đồ án1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý đồ án2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="banguser.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="banguser_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>banguser.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
