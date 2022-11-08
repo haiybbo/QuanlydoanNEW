@@ -16,11 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new Frmgiangvienmain());
-=======
             Application.Run(new Frmadminmain());
->>>>>>> 3ba4ccaf15a938500e2cc2ecb4f7e90475b4dfbb
         }
     }
 }
