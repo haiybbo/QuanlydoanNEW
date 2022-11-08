@@ -108,6 +108,12 @@
     <Compile Include="frmsearchdoan.designer.cs">
       <DependentUpon>frmsearchdoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frmsearchdoan_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsearchdoan_admin.Designer.cs">
+      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmsignin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmsearchdoan.resx">
       <DependentUpon>frmsearchdoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsearchdoan_admin.resx">
+      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmsignin.resx">
       <DependentUpon>Frmsignin.cs</DependentUpon>

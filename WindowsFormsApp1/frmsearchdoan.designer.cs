@@ -122,7 +122,7 @@ namespace WindowsFormsApp1
             // 
             this.button7.BackColor = System.Drawing.SystemColors.Info;
             this.button7.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(1110, 966);
+            this.button7.Location = new System.Drawing.Point(1067, 964);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(172, 40);
             this.button7.TabIndex = 70;
@@ -160,7 +160,7 @@ namespace WindowsFormsApp1
             this.comboBox3.Size = new System.Drawing.Size(221, 37);
             this.comboBox3.TabIndex = 75;
             // 
-            // frmsearchdoansinhvien
+            // frmsearchdoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,7 +178,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "frmsearchdoansinhvien";
+            this.Name = "frmsearchdoan";
             this.Text = "Thư viện đồ án";
             this.Load += new System.EventHandler(this.frmsearchdoansinhvien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
