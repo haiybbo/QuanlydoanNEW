@@ -51,10 +51,5 @@ namespace WindowsFormsApp1
             Frmsearchdoan_admin f = new Frmsearchdoan_admin();
             f.Show();
         }
-
-        private void lblchaomung_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

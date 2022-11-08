@@ -132,12 +132,6 @@
     <Compile Include="frmstudentprofile.Designer.cs">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmtrogiupsinhvien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frmtrogiupsinhvien.Designer.cs">
-      <DependentUpon>Frmtrogiupsinhvien.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frmviewdoan_sv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,16 +171,10 @@
       <DependentUpon>RptDetaitheoChude.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RptDetaitheoChuyennganh.cs">
+    <Compile Include="RptDSSV.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RptDetaitheoChuyennganh.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RptDetaitheoGiangvien.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptDetaitheoGiangvien.rpt</DependentUpon>
+      <DependentUpon>RptDSSV.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Taikhoan.cs" />
@@ -247,13 +235,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RptDetaitheoChude.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RptDetaitheoChuyennganh.rpt">
+    <EmbeddedResource Include="RptDSSV.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptDetaitheoChuyennganh.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RptDetaitheoGiangvien.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptDetaitheoGiangvien.cs</LastGenOutput>
+      <LastGenOutput>RptDSSV.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="banguserDataSet.xsc">
       <DependentUpon>banguserDataSet.xsd</DependentUpon>
@@ -324,13 +308,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="banguser.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="banguser_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>banguser.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\email.png" />
   </ItemGroup>
   <ItemGroup>
