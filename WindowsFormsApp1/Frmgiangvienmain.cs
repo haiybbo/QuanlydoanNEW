@@ -34,5 +34,10 @@ namespace WindowsFormsApp1
             frmsearchdoan f = new frmsearchdoan();
             f.Show();
         }
+
+        private void Frmgiangvienmain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

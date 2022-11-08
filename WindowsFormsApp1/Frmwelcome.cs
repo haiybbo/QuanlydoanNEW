@@ -31,6 +31,7 @@ namespace WindowsFormsApp1
         {
             Frmsignin frmsignin = new Frmsignin();
             frmsignin.Show();
+            this.Close();
         }
     }
 }

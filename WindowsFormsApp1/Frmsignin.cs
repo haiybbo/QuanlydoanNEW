@@ -54,16 +54,19 @@ namespace WindowsFormsApp1
                     {
                         Frmsinhvienmain frmsinhvienmain = new Frmsinhvienmain();
                         frmsinhvienmain.Show();
+                        this.Close();
                     }
                     else if (phanquyen.role(query)[0].Phanquyen == "2")
                     {
                         Frmgiangvienmain frmgiangvienmain = new Frmgiangvienmain();
                         frmgiangvienmain.Show();
+                        this.Close();
                     }
                     else 
                     {
                         Frmadminmain frmadminmain = new Frmadminmain();
                         frmadminmain.Show();
+                        this.Close();
                     }
                 }
                 else
@@ -83,6 +86,11 @@ namespace WindowsFormsApp1
             Quenmatkhau quenmatkhau = new Quenmatkhau();
             quenmatkhau.Show();
             this.Close();
+        }
+
+        private void Frmsignin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

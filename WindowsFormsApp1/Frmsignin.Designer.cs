@@ -181,10 +181,11 @@ namespace WindowsFormsApp1
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.MaximumSize = new System.Drawing.Size(1630, 919);
             this.Name = "Frmsignin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frmsignin";
             this.UseWaitCursor = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Frmsignin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
